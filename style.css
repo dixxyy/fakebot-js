@@ -5,13 +5,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #406882;
+  font-family: sans-serif;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 98vh;
 }
 
 .wrapper {
@@ -23,6 +24,7 @@ body {
 .row {
   display: flex;
   flex-direction: row;
+  padding-top: 20px;
 }
 
 button {
@@ -43,4 +45,17 @@ input {
   padding: 15px;
   font-size: 20px;
   margin-top: 10px;
+}
+
+#pertanyaan {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
